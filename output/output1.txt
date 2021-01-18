@@ -1,10 +1,10 @@
 PS H:\Read\num\x64\Release> .\eulerSieve
- EulerSieve: a method to find out all primes below the number that you specify here please: 12345678
+ EulerSieve: a method to find out all primes below the number that you specify here please: 1234567890
 
  Only the sum of all primes needed [y/n](y as default):
 
- Start to work out the sum of all primes below 12345678...
- 809227 primes found in 125 milliseconds.
+ Start to work out the sum of all primes below 1234567890...
+ 62106578 primes found in 15734 milliseconds.
 
 PS H:\Read\num\x64\Release> .\eulerSieve
  EulerSieve: a method to find out all primes below the number that you specify here please: 123456789
@@ -12,15 +12,15 @@ PS H:\Read\num\x64\Release> .\eulerSieve
  Only the sum of all primes needed [y/n](y as default):
 
  Start to work out the sum of all primes below 123456789...
- 7027260 primes found in 1375 milliseconds.
+ 7027260 primes found in 1391 milliseconds.
 
 PS H:\Read\num\x64\Release> .\eulerSieve
- EulerSieve: a method to find out all primes below the number that you specify here please: 1234567890
+ EulerSieve: a method to find out all primes below the number that you specify here please: 12345678
 
  Only the sum of all primes needed [y/n](y as default):
 
- Start to work out the sum of all primes below 1234567890...
- 62106578 primes found in 32031 milliseconds.
+ Start to work out the sum of all primes below 12345678...
+ 809227 primes found in 141 milliseconds.
 
 PS H:\Read\num\x64\Release> .\eulerSieve
  EulerSieve: a method to find out all primes below the number that you specify here please: 100
