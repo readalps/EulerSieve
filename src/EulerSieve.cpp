@@ -42,7 +42,6 @@ bool eulerSieve()
     }
 
     ulong sum = 0;
-    ulong curPrime = 1;
     memset(s_pAll, 1, s_last);
     for (ulong num = 2; num < s_last; ++num) {
         if (s_pAll[num - 1] == 1) {
