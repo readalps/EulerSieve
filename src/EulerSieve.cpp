@@ -51,9 +51,10 @@ bool eulerSieve()
         }
         for (ulong idx = 0; idx < sum; ++idx) {
             ulong prime = s_vecPrime[idx];
-            if (num * prime >= s_last)
+            ulong multiple = num * prime;
+            if (multiple >= s_last)
                 break;
-            s_pAll[num * prime - 1] = 0;
+            s_pAll[multiple - 1] = 0;
             if (num % prime == 0)
                 break;
         }
